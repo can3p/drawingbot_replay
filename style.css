@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro {
+  float: left;
+  width: 300px;
+}
+
+.intro textarea {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.intro button {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 2em;
+}
+
+.draw {
+  margin-left: 320px;
+}
+
+.draw canvas {
+  border: 1px solid #bcbcbc;
+}

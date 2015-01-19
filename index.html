@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drawing bot replay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Drawing bot replay thingy</h1>
+  <section class="intro">
+    <textarea id="commands">
+PenDown
+StepForward
+StepForward
+StepForward
+TurnRight
+StepForward
+PenUp
+TurnRight
+StepForward
+TurnLeft
+PenDown
+StepForward
+PenUp
+TurnLeft
+StepForward
+TurnRight
+PenDown
+StepForward
+TurnRight
+StepForward
+StepForward
+StepForward
+TurnRight
+StepForward
+StepForward
+StepForward
+    </textarea>
+    <button id="run">Draw!</button>
+  </section>
+  <section class="draw">
+    <canvas id="draw_area" width="800" height="600"></canvas>
+  </section>
+  <script src="js/fabric.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/page.js"></script>
+</body>
+</html>
